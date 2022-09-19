@@ -7,7 +7,6 @@ import CurrencyConverterContext from "../../service/context";
 export const CurrencyCalculator = () => {
   const {
     loading,
-    currencyInfo,
     fethCurrencyInfoFn,
     currencyCountryList = {},
     isConverting,
@@ -31,14 +30,12 @@ export const CurrencyCalculator = () => {
     setAmount(parseInt(value));
     // @ts-ignore
     setConvetedValueFn(0);
-    // setConvetedValueFn(currencyInfo[toCurrency] * parseInt(value));
   };
 
   const setToCurrencyFn = (toCurrency: string) => {
     setToCurrency(toCurrency);
     // @ts-ignore
     setConvetedValueFn(0);
-    // setConvetedValueFn(currencyInfo[toCurrency] * amount);
   };
 
   const setFromCurrencyFn = (fromCurrency: string) => {
