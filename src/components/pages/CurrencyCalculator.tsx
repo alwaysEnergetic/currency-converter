@@ -30,12 +30,14 @@ export const CurrencyCalculator = () => {
     setAmount(parseInt(value));
     // @ts-ignore
     setConvetedValueFn(0);
+    // setConvetedValueFn(currencyInfo[toCurrency] * parseInt(value));
   };
 
   const setToCurrencyFn = (toCurrency: string) => {
     setToCurrency(toCurrency);
     // @ts-ignore
     setConvetedValueFn(0);
+    // setConvetedValueFn(currencyInfo[toCurrency] * amount);
   };
 
   const setFromCurrencyFn = (fromCurrency: string) => {
@@ -60,8 +62,8 @@ export const CurrencyCalculator = () => {
   ) => {
     const options = [
       <input
-        key="currency-input"
         type="text"
+        key="currency-input"
         className="form-control m-2 dropdown-search"
         placeholder="Search"
         value={searchTxt}

@@ -10,7 +10,7 @@ import {
 } from "./Types";
 import { currencyCountryList, AUDrates } from "../constants";
 
-const apiKey = "q0yeGIP8EP7jyFtzDWKigzGVN35kaAbR";
+const apiKey = "2i2k88YXhmiknOb1jgNxHQZX7mmqSQb3";
 
 const CCaction = (props: { children: React.ReactNode }) => {
   const initialState = {

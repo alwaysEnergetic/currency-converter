@@ -16,7 +16,7 @@ Please follow below steps for setting up your app on your machine.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/alwaysEnergetic/currency-converter
+   git clone https://github.com/ShubhamSahaniNitkkr/react-currency-converter
    ```
 2. Install dependencies
    ```sh
@@ -31,7 +31,7 @@ Please follow below steps for setting up your app on your machine.
 
 Contributors names and contact info
 
- - Toll Card (https://github.com/alwaysEnergetic)
+ - Shubham Sunny (https://github.com/ShubhamSahaniNitkkr)
 
 ## Version History
 
