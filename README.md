@@ -27,12 +27,6 @@ Please follow below steps for setting up your app on your machine.
 
 - yarn start
 
-## Authors
-
-Contributors names and contact info
-
- - Shubham Sunny (https://github.com/ShubhamSahaniNitkkr)
-
 ## Version History
 
 - 0.1
